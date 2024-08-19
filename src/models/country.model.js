@@ -6,7 +6,7 @@ const countrySchema = new mongoose.Schema({
             require: true
     },
 
-    popluation: {
+    population: {
         type: String,
         require: true
     },
@@ -28,7 +28,11 @@ const countrySchema = new mongoose.Schema({
         require: true
     }
     
-})
+},
+{
+    versionKey: false
+}
+)
 
 const Country = mongoose.model('country', countrySchema)
 module.exports = Country
