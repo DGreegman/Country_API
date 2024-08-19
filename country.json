@@ -1,0 +1,17 @@
+[
+    {
+      "name": "USA",
+      "capital": "Washington D.C.",
+      "population": "200m"
+    },
+    {
+      "name": "Canada",
+      "capital": "Ottawa",
+      "population": "300m"
+    },
+    {
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "population": "100m"
+    }
+  ]
